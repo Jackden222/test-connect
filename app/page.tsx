@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react'
 import { WebApp } from '@twa-dev/types'
+import BottomNavigation from './components/ui/BottomNavigation'
 
 declare global {
   interface Window {
@@ -96,6 +97,7 @@ export default function Home() {
           {notification}
         </div>
       )}
+      <BottomNavigation/>
     </div>
   )
 }
