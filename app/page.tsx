@@ -168,7 +168,7 @@ export default function Home() {
                 onClick={handleIncreasePoints}
               >
                 <div className="w-full h-full rounded-full circle-inner">
-                  <img src={mainCharacter} alt="Main Character" className="w-full h-full" />
+                  <img src={mainCharacter.src} alt="Main Character" className="w-full h-full" />
                 </div>
               </div>
             </div>
